@@ -30,8 +30,8 @@ public class ejercicioExtra2 {
         int [] vector1 = new int [a];
         int [] vector2 = new int [a];
         for (int i = 0; i < vector2.length; i++) {
-            vector1[i] = rnd.nextInt(1);
-            vector2[i] = rnd.nextInt(1);
+            vector1[i] = rnd.nextInt(3);
+            vector2[i] = rnd.nextInt(3);
             System.out.print(vector1[i]);
             
         }
@@ -41,10 +41,16 @@ public class ejercicioExtra2 {
             if (vector1[i] != vector2[i]) {
                 System.out.println("No son iguales");
                 break;
-                        }
-            if (vector1[vector1.length-1] == (vector2[vector2.length-1])) {
-                System.out.println("Son iguales");
-            }
+                }
+//                else { 
+//                System.out.println("Son iguales"); 
+//                break;
+//                    }  
+                
+                      
+//            if (vector1[vector1.length-1] == (vector2[vector2.length-1])) {
+//                System.out.println("Son iguales");
+//            }
             }
     }
 
